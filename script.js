@@ -42,7 +42,7 @@ document.querySelector('.check').addEventListener('click', function () {
   }
 }); 
 document.querySelector('.again').addEventListener('click', function () {
-  score = 20; 
+  scoreStatus = 20; 
   secretNumber = Math.floor(Math.random() * 20) + 1; 
   displayMessage('Start guessing...'); 
   score.textContent = scoreStatus; 
